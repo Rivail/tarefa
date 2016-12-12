@@ -1,0 +1,140 @@
+ 
+ 
+ * {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ 
+ .menu {
+ 	list-style-type: none;
+ 	margin: 50px -350px -50px 350px;
+ 	border: 10px solid red;
+ 	float: left;
+
+ }
+
+ .menu li {
+ 	position: relative;
+ 	float: left;
+ 	border-right: 1px solid #990000;
+ 	padding-left: 100px;
+ 	padding-right: 100px;
+ 	background-color: #FF0000;
+ 	height: 28px;
+ 	line-height: 28px;
+ }
+ .imagem {
+ 	 margin: 100px 50px -465px -465px;
+ }
+
+ .menu li a {
+ 	font-family: Tahoma;
+ 	font-size: 13px;
+ 	color: #FFFFFF;
+ 	text-decoration: none;
+ }
+
+ .menu li ul {
+ 	position: absolute;
+ 	top: 28px;
+ 	left: -20px;
+ 	display: none;
+ }
+
+ .menu li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul {
+ 	display: block;
+
+ }
+
+ .menu li ul li {
+ 	border: 1px solid #990000;
+ 	display: block;
+ 	width: 150px;
+ 	height: 25px;
+ 	line-height: 25px;
+ }
+ /* */
+
+ .menu-h {
+ 	list-style-type: none;
+ 	margin: 50px 50px 50px 350px;
+ 	border: 10px solid blue;
+ 	float: left;
+
+ }
+
+ .menu-h li {
+ 	position: relative;
+ 	float: left;
+ 	border-right: 1px solid #990000;
+ 	padding-left: 100px;
+ 	padding-right: 100px;
+ 	background-color: blue;
+ 	height: 28px;
+ 	line-height: 28px;
+ }
+ 
+
+ .menu-h li a {
+ 	font-family: Tahoma;
+ 	font-size: 13px;
+ 	color: #FFFFFF ;
+ 	text-decoration: none;
+ }
+
+ .menu-h li ul {
+ 	position: absolute;
+ 	top: 28px;
+ 	left: -20px;
+ 	display: none;
+ }
+
+ .menu-h li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul {
+ 	display: block;
+
+ }
+
+ .menu-h li ul li {
+ 	border: 1px solid #990000;
+ 	display: block;
+ 	width: 150px;
+ 	height: 25px;
+ 	line-height: 25px;
+ }
+ .imagem {
+ 	margin-left: 1%;
+
+
+ }
+ .imagem2 {
+ 	margin-top: 500px;
+ 	margin-left: 30%;
+ 	display: flex;
+
+ }
+ .mulher {
+	margin-left: 70%;
+
+ }
+ 
+ .lista {
+ 	margin-top: -500px;
+  	margin-left: -1700px;
+ }
+ .lista li {
+ 	display: inline-block;
+ 	cursor: pointer;
+ 	color: black;
+ 	margin-left: -10px;
+ 	padding: 30px;
+ }
+ .lista li:hover {
+ 	color: blue;
+ }
+.favicon {
+	margin-top: -650px;
+	margin-left: -900px;
+}
+ 
+
+  
